@@ -4,4 +4,5 @@
 !/plugins/dipfit
 !/plugins/firfilt
 !/plugins/ICLabel
+!/plugins/bemobil-pipeline
 .DS_Store
