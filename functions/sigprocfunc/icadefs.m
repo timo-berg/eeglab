@@ -66,7 +66,7 @@ tmpComputer   = computer;
 tmpScreenSize = get(0, 'ScreenSize');
 
 % Graph Definitions
-DEFAULT_COLORMAP = 'jet';
+DEFAULT_COLORMAP = load('/Users/timotheusberg/Documents/Work/BPN/triangle_walking/05_analysis/functions/misc_data/blue_red_cmap.mat').blue_red_safe;
 
 if VERS < 8.04
     PLOT_LINEWIDTH   = 2;
